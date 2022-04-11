@@ -1,8 +1,6 @@
 VERSION=v16.14.2
 DISTRO=linux-x64
 
-sudo dnf install -y wget
-
 mkdir -p $HOME/temporary
 cd $HOME/temporary
 wget https://nodejs.org/dist/$VERSION/node-$VERSION-$DISTRO.tar.xz
